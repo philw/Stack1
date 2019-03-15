@@ -9,9 +9,12 @@
         stack.Push("green")
         stack.Push("blue")
         stack.Push("yellow")
+        stack.Push("cyan")
 
-        S = stack.Pop
-        Console.WriteLine(S)
+        For i = 1 To 5
+            S = stack.Pop
+            Console.WriteLine(S)
+        Next
 
         Console.ReadLine()
 
